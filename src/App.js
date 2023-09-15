@@ -10,7 +10,7 @@ function App() {
     <Header/>
       <div className='main'>
         {
-          movies.map((element,index) => {
+          movies.map((element, index) => {
             return(
             <Movie key={index}
               title={element.Title}
